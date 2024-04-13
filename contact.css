@@ -1,0 +1,281 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color:#333;
+}
+
+.logo{
+    height: 100%;
+    width: 25%;
+  
+    float: left;
+
+}
+.logo img{
+    width:200px;
+    height: 90px;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+
+  
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color:gray;
+    height:50px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px; /* Adjust spacing between navbar items */
+    margin-top:15px;
+
+}
+
+nav ul li a {
+    color: #fff; /* Navbar item text color */
+    text-decoration: none;
+    padding: 10px 20px; /* Adjust padding to increase clickable area */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    align-items:center;
+}
+
+
+nav ul li a:hover {
+    background-color: cornflowerblue;
+}
+
+.submenu {
+    position: relative; 
+}
+
+.submenu-content {
+    display:none; 
+    position:absolute;
+    top: 100%; 
+    left: 0;
+    background-color: #333; 
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.submenu:hover .submenu-content {
+    display: block; /* Show submenu on hover */
+}
+
+
+
+.container {
+    max-width: 700px;
+   margin-left:300px;
+    background-color:white;
+    padding: 20px;
+    margin-top:150px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px grey;
+    display: flex;
+    height: 450px;
+    margin-bottom:120px;
+    
+   
+  }
+  .form-container {
+    flex: 1;
+    padding-right: 20px;
+  }
+
+  .form-container h2{
+    text-align: center;
+    font-style: italic;
+    color:black;
+    font-weight: bold;
+  }
+
+  
+  form {
+    max-width: 100%;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input[type="text"], input[type="email"], textarea {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px grey;
+
+  }
+  input[type="submit"] {
+    background-color:deepskyblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+  }
+  input[type="submit"]:hover {
+    background-color:cornflowerblue;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.review{
+    text-align:  center;
+}
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    width: 70%;
+    height:250px;
+    background-color: #ccc ;
+    margin-left: 180px;
+    margin-bottom:25px;
+    box-shadow: 0 0 20px grey;
+
+}
+
+.left-content {
+    flex:1;
+    width: 45%;
+    margin-left:30px;
+}
+
+
+
+.right-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius:50%;
+    margin-top:8px;
+}
+
+.rating {
+    margin-top: 10px;
+}
+
+.fa {
+    font-size: 20px;
+}
+
+.checked {
+    color: orange;
+}
+.details{
+    margin-top:5px;
+    margin-left:70px;
+    background-color:cornflowerblue;
+}
+.details:hover{
+    background-color: #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+			
+    position: absolute;
+    background:gray;
+    height: auto;
+    width: 100vw;
+    padding-top:20px;
+    color: #fff;
+    margin-top:70px;
+    font-family: "Merriweather", serif;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color:lightskyblue;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color:rosybrown;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+  
+
+    
+
+
+
+
